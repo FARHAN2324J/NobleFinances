@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Img1 from "../../assets/images/mm3.webp";
@@ -19,7 +19,7 @@ interface Card {
 const HowItWorks = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [currentSlide, setCurrentSlide] = useState<number>(0);
+  // const [currentSlide, setCurrentSlide] = useState<number>(0);
 
   const cards: Card[] = [
     {
@@ -80,11 +80,11 @@ const HowItWorks = () => {
           duration: { min: 0.3, max: 0.5 },
           ease: "power1.inOut",
         },
-        onUpdate: (self) => {
-          const progress = self.progress;
-          const slideIndex = Math.round(progress * (totalSlides - 1));
-          setCurrentSlide(slideIndex);
-        },
+        // onUpdate: (self) => {
+        //   const progress = self.progress;
+        //   const slideIndex = Math.round(progress * (totalSlides - 1));
+        //   setCurrentSlide(slideIndex);
+        // },
         id: "slider-trigger",
       },
     });

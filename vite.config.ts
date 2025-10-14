@@ -12,4 +12,8 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  base: "/NobleFinances/",
+  build: {
+    outDir: "dist",
+  },
 });
