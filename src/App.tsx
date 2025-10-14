@@ -1,17 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import Appointment from "./pages/Appointment";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/booking" element={<Appointment />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
