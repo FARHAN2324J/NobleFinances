@@ -156,7 +156,7 @@ const HowItWorks = () => {
                   {c.number}
                 </span>
                 <div className="flex flex-col gap-1 lg:col-start-2 lg:-ml-10 order-2  h-full">
-                  <p className="text-[var(--Paragraph)] lg:text-5xl md:text-[34px] text-[24px] sm:text-[28px] leading-11 text-center lg:text-left">
+                  <p className="text-[var(--Paragraph)] lg:text-5xl md:text-[34px] text-[24px] sm:text-[28px] leading-8 sm:leading-11 text-center lg:text-left">
                     {c.title}
                   </p>
                   <p className="text-[var(--Paragraph)] text-sm md:text-base text-center lg:text-left text-balance py-4 lg:py-0 mt-4 lg:mt-4">
