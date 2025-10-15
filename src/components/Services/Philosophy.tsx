@@ -26,7 +26,6 @@ const Philosophy = () => {
           end: "+=300%",
           scrub: 2,
           pin: true,
-          pinSpacing: true,
         },
       });
 

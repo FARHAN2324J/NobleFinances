@@ -74,7 +74,6 @@ const HowItWorks = () => {
         end: `+=${(totalSlides - 1) * window.innerHeight}`,
         scrub: 1,
         pin: true,
-        pinSpacing: true,
         snap: {
           snapTo: 1 / (totalSlides - 1),
           duration: { min: 0.3, max: 0.5 },
