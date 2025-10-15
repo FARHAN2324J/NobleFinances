@@ -3,7 +3,7 @@ import Img from "../../assets/images/calculator.webp";
 
 const Past = () => {
   return (
-    <section className="flex sm:flex-row flex-col-reverse items-center justify-around py-20 md:px-10 px-6 gap-8 pt-30">
+    <section className="flex sm:flex-row flex-col-reverse items-center justify-around py-20 md:px-10 px-6 gap-8">
       <div className="flex flex-col gap-8 items-center sm:pt-0 pt-5">
         <SplitText
           text="Say goodbye to taxes of the past"
